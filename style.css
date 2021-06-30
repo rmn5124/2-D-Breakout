@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+* {
+  font-family: "Montserrat", serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /* background:url("https://media.giphy.com/media/GC7C2Fi902BDG/giphy.gif"); */
+  background: url("https://images8.alphacoders.com/100/thumb-1920-1006608.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sound {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 570px;
+  left: 450px;
+}
+#gameover {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  border-radius: 20px;
+}
+#youwon {
+  width: 300px;
+  position: absolute;
+  top: 125px;
+  left: 100px;
+  display: none;
+}
+#youlose {
+  width: 495px;
+  position: absolute;
+  top: -22px;
+  left: 0px;
+  display: none;
+}
+#restart {
+  position: absolute;
+  top: 387px;
+  left: 130px;
+  cursor: pointer;
+  font-size: 2.25em;
+  color: #fff;
+}
+.cv {
+  border-radius: 20px;
+  box-shadow: 5px 0px 70px #fff;
+}
+
+@media (min-width: 1920px) {
+  #sound {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 570px;
+    left: 730px;
+  }
+}

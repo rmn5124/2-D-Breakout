@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="img/game-console.png" />
+    <title>2D Breakout Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sound">
+      <img src="img/SOUND_ON.png" alt="" id="sound" />
+    </div>
+
+    <div id="gameover">
+      <img src="img/winner.png" alt="" id="youwon" />
+      <img src="img/gameover2.png" alt="" id="youlose" />
+      <div id="restart">PLAY AGAIN!</div>
+    </div>
+
+    <canvas id="breakout" width="500%" height="600%" class="cv"></canvas>
+
+    <script src="components.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
